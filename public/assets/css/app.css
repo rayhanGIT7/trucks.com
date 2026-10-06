@@ -1,0 +1,51 @@
+:root {
+    --brand: #0f4c5c;
+    --brand-dark: #0b3540;
+}
+
+.bg-brand { background-color: var(--brand); }
+.text-brand { color: var(--brand); }
+
+.btn-primary {
+    --bs-btn-bg: var(--brand);
+    --bs-btn-border-color: var(--brand);
+    --bs-btn-hover-bg: var(--brand-dark);
+    --bs-btn-hover-border-color: var(--brand-dark);
+    --bs-btn-active-bg: var(--brand-dark);
+}
+
+/* Home hero */
+.hero {
+    background: linear-gradient(rgba(11, 53, 64, .75), rgba(11, 53, 64, .75)), url('../images/hero.jpg') center / cover;
+    color: #fff;
+    padding: 5rem 0 6rem;
+}
+.search-card {
+    margin-top: -3.5rem;
+}
+
+/* Truck cards */
+.truck-img {
+    height: 160px;
+    object-fit: contain;
+    background: #f1f5f6;
+    padding: 1rem;
+}
+.truck-card { transition: box-shadow .2s; }
+.truck-card:hover { box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1); }
+
+.step-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff3cd;
+    color: var(--brand);
+    font-size: 1.4rem;
+}
+
+.stat-card .value { font-size: 1.6rem; font-weight: 700; }
+
+.table td, .table th { vertical-align: middle; }

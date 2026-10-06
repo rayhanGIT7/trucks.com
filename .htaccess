@@ -1,0 +1,4 @@
+# For XAMPP (http://localhost/shiftkoro): forward everything to the public/ folder.
+# app/, config/, database/ are never reachable from the browser.
+RewriteEngine On
+RewriteRule ^(.*)$ public/$1 [L]

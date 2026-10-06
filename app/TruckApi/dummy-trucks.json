@@ -1,0 +1,112 @@
+{
+  "data": [
+    {
+      "external_id": "TRK-007",
+      "name": "Mini Pickup 7ft",
+      "type": "pickup",
+      "size_ft": 7,
+      "capacity_ton": 1,
+      "description": "Smallest truck in our fleet. Good for small loads and bachelor home shifting. Brands: TATA, Ashok Leyland.",
+      "image_url": "/assets/images/trucks/icon-101.svg",
+      "base_fare": 800,
+      "per_km_rate": 40,
+      "is_available": true
+    },
+    {
+      "external_id": "TRK-009",
+      "name": "Pickup 9ft",
+      "type": "pickup",
+      "size_ft": 9,
+      "capacity_ton": 1.5,
+      "description": "Ideal for medium sized products, electronics, furniture, cartons and garments. Brands: Toyota, Mahindra.",
+      "image_url": "/assets/images/trucks/9.svg",
+      "base_fare": 1000,
+      "per_km_rate": 50,
+      "is_available": true
+    },
+    {
+      "external_id": "TRK-012",
+      "name": "Pickup 12ft",
+      "type": "pickup",
+      "size_ft": 12,
+      "capacity_ton": 2,
+      "description": "Medium sized goods and small family relocation. Brands: JAC, JMC.",
+      "image_url": "/assets/images/trucks/12.svg",
+      "base_fare": 1500,
+      "per_km_rate": 65,
+      "is_available": true
+    },
+    {
+      "external_id": "TRK-014",
+      "name": "Covered Van 14ft",
+      "type": "covered_van",
+      "size_ft": 14,
+      "capacity_ton": 3.5,
+      "description": "Covered truck, safe from rain and dust. Ideal for a 3 room home shifting. Brands: Eicher, Mitsubishi.",
+      "image_url": "/assets/images/trucks/14.svg",
+      "base_fare": 2000,
+      "per_km_rate": 80,
+      "is_available": true
+    },
+    {
+      "external_id": "TRK-016",
+      "name": "Medium Truck 16ft",
+      "type": "medium",
+      "size_ft": 16,
+      "capacity_ton": 7.5,
+      "description": "Agricultural products, construction materials and large home shifting. Brands: Tata, Bedford.",
+      "image_url": "/assets/images/trucks/16.svg",
+      "base_fare": 2500,
+      "per_km_rate": 95,
+      "is_available": true
+    },
+    {
+      "external_id": "TRK-018",
+      "name": "Large Truck 18ft",
+      "type": "large",
+      "size_ft": 18,
+      "capacity_ton": 15,
+      "description": "Heavy goods: bricks, stone, rod, cement, sand. Brands: Tata, Ashok Leyland.",
+      "image_url": "/assets/images/trucks/18.svg",
+      "base_fare": 3500,
+      "per_km_rate": 120,
+      "is_available": true
+    },
+    {
+      "external_id": "TRK-020",
+      "name": "Large Truck 20ft",
+      "type": "large",
+      "size_ft": 20,
+      "capacity_ton": 15,
+      "description": "Heavy construction materials and bulk goods over long distance.",
+      "image_url": "/assets/images/trucks/20.svg",
+      "base_fare": 4000,
+      "per_km_rate": 135,
+      "is_available": true
+    },
+    {
+      "external_id": "TRK-023",
+      "name": "Covered Van 23ft",
+      "type": "covered_van",
+      "size_ft": 23,
+      "capacity_ton": 15,
+      "description": "Import/export cartons, food, garment and textile products. Brands: Tata, Ashok Leyland, Eicher.",
+      "image_url": "/assets/images/trucks/22.svg",
+      "base_fare": 4500,
+      "per_km_rate": 150,
+      "is_available": true
+    },
+    {
+      "external_id": "TRK-026",
+      "name": "Heavy Truck 26ft",
+      "type": "large",
+      "size_ft": 26,
+      "capacity_ton": 25,
+      "description": "Our biggest truck for very large loads and factory shifting.",
+      "image_url": "/assets/images/trucks/26.svg",
+      "base_fare": 6000,
+      "per_km_rate": 180,
+      "is_available": false
+    }
+  ]
+}
